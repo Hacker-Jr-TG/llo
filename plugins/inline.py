@@ -31,8 +31,8 @@ from pyrogram import (
 
 buttons = [
     [
-        InlineKeyboardButton('⚡️Make Own Bot', url='https://github.com/subinps/VCPlayerBot'),
-        InlineKeyboardButton('🧩 Join Here', url='https://t.me/subin_works'),
+        InlineKeyboardButton('🌀 𝖩𝗈𝗂𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 🌀', url='https://t.me/dk_botx'),
+        InlineKeyboardButton('✨ 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖢𝗁𝖺𝗍 ✨', url='https://t.me/dkbotxchats'),
     ]
     ]
 def get_cmd(dur):
@@ -46,8 +46,8 @@ async def search(client, query):
     if query.query == "ETHO_ORUTHAN_PM_VANNU":
         answers.append(
             InlineQueryResultArticle(
-                title="Deploy",
-                input_message_content=InputTextMessageContent(f"{Config.REPLY_MESSAGE}\n\n<b>You can't use this bot in your group, for that you have to make your own bot from the [SOURCE CODE](https://github.com/subinps/VCPlayerBot) below.</b>", disable_web_page_preview=True),
+                title="𝙀𝙉𝙏𝙃𝘼𝘿𝘼 𝙈𝙊𝙒𝙉𝙀",
+                input_message_content=InputTextMessageContent(f"{Config.REPLY_MESSAGE}\n\n<b>𝖤𝗇𝗍𝗁𝖺𝖽𝖺 𝗆𝗈𝗐𝗇𝗈𝗈𝗌𝖾 𝗇𝖾𝖾 𝗇𝗈𝗄𝖺𝗇𝖾 , 𝗌𝖺𝗆𝗌𝗁𝖺𝗒𝖺𝗆 𝗈𝗄𝖾 𝖾𝗇𝗍𝖾 𝗆𝗈𝗍𝗁𝖺𝗅𝖺𝗅𝗂𝖽𝖾 𝖺𝖽𝗎𝗍𝗁 [Dᴋ 🇮🇳](https://t.me/aboutme_DK).</b>", disable_web_page_preview=True),
                 reply_markup=InlineKeyboardMarkup(buttons)
                 )
             )
